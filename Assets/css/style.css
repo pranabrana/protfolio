@@ -1,11 +1,139 @@
-.a1{
-	width: 150px;
-	height: 500px;
+body{
+	background: #000066;
+	color: #fff;
 }
+.row{
+	align-content: center;
+}
+.btn{
+	width: 150px;
+	height: 50px;
+	background-color: ;
+	box-shadow: 2.5px 2.5px 20px 10px #0ff;
+}
+
+/* --------------- navbar --------------- */
+
 .logo{
 	padding-left:30px;
 	padding-top: 2px;
 	height: 60px;
 	width: 150px;
 }
+.nav-link{
+	color: black;
+	font-weight: 500;
+	width: 80px;
+	height: 50px;
+	border: none;
+	background: rgb(214, 214, 214);
+	box-shadow: 0 0 10px #9521f3,0 0 40px #c600ee,0 0 80px #f704f7;
+	outline: none;
+	border-radius: 20%;
+	margin-right: 5px;
+}
+.nav-link:active{
+	box-shadow: 1px 1px 3px #fd0c99, 1px 1px 3px #ff00dd;
+}
+
+
+/* --------------- home  --------------- */
+
+.home-text h3{
+		text-transform: uppercase;
+		color: white;
+}
+
+/* --------------- about --------------- */
+
+.social-links a{
+	text-decoration: none;
+	font-size: 20px;
+	display: inline-block;
+	transition: transform 0.6s;
+
+}
+.social-links a:hover{
+	color: ;
+	transform: translate(10px);
+}
+.social-links{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	justify-content: center;
+}
+.fab{
+	width: 30px;
+	height: 30px;
+	background-color: #fafafa;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 1em;
+	margin-left: 2em;
+	cursor: pointer;
+	transition: all 0.3s;
+	border-radius: 10px;
+}
+i.fab{
+	font-size: 10px;
+}
+
+/* --------------- service --------------- */
+
+. box div{
+	border-radius: 10px;
+	transition: background 0.5s,transform 0.5s;
+}
+. box div:hover{
+	background: #ff004f;
+	transform: translate(-10px);
+}
+
+/* --------------- protfolio --------------- */
+
+.a2{
+	height: 200px;
+	width: 100px;
+}
+.portfolio-item img{
+	border-radius: 10px;
+	display: block;
+	transition: transform 0.5s;
+}
+.portfolio-item:hover img{
+	transform: scale(1.1);
+}
+
+/* --------------- freelancer --------------- */
+
+
+
+/* --------------- testmonials --------------- */
+
+.a1{
+	width: 50px;
+	height: 500px;
+}
+.carousel-item img{
+	border-radius: 10px;
+	display: block;
+	transition: transform 0.5s;
+}
+.carousel-item:hover img{
+	transform: scale(1.1);
+}
+
+/* --------------- contract --------------- */
+
+.contact-form:hover button{
+	transform: scale(1.1);
+}
+.contact-form{
+	box-shadow: white;
+}
+
+/* --------------- footer --------------- */
+
 
