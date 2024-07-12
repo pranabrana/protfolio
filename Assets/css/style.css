@@ -1,48 +1,87 @@
-body{
+/*body{
 	background: #000066;
 	color: #fff;
-}
+	
+}*/
 .row{
 	align-content: center;
 }
-.btn{
+/*.btn{
 	width: 150px;
 	height: 50px;
 	background-color: ;
 	box-shadow: 2.5px 2.5px 20px 10px #0ff;
-}
+}*/
 
 /* --------------- navbar --------------- */
 
 .logo{
-	padding-left:30px;
-	padding-top: 2px;
+	/*padding-left:30px;
+	padding-top: 2px;*/
 	height: 60px;
 	width: 150px;
 }
-.nav-link{
-	color: black;
-	font-weight: 500;
-	width: 80px;
-	height: 50px;
-	border: none;
-	background: rgb(214, 214, 214);
-	box-shadow: 0 0 10px #9521f3,0 0 40px #c600ee,0 0 80px #f704f7;
-	outline: none;
-	border-radius: 20%;
-	margin-right: 5px;
+
+/*
+@media only screen and (max-width:600px){
+	.dropdown{
+		align-content: right;
+	}
 }
-.nav-link:active{
+.drop:active{
 	box-shadow: 1px 1px 3px #fd0c99, 1px 1px 3px #ff00dd;
 }
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus 
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(214, 214, 214);
+  min-width: 160px;
+  box-shadow: 0 0 10px #9521f3,0 0 40px #c600ee,0 0 80px #f704f7;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}*/
 
 
 /* --------------- home  --------------- */
 
-.home-text h3{
-		text-transform: uppercase;
-		color: white;
+.image{
+	position: relative;
+	justify-content: space-between;
+	align-items: center;
+	 	
 }
+.home-text h3 span{
+	color: red;
+}
+*/
 
 /* --------------- about --------------- */
 
@@ -66,7 +105,7 @@ body{
 .fab{
 	width: 30px;
 	height: 30px;
-	background-color: #fafafa;
+	background-color:lightblue;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -133,7 +172,17 @@ i.fab{
 .contact-form{
 	box-shadow: white;
 }
+.map{
+	width: 400px;
+	height: 200px;
+}
+.star{
+	color: red;
+	size: 25px;
+}
+
 
 /* --------------- footer --------------- */
+
 
 
